@@ -52,7 +52,7 @@ $(function () {
 
             }
     },
-
+/*кукукууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууу*/
         done: function () {
             if ( this.$el.find("input:checkbox").prop("checked") == true)
             this.model.set({done : true})
