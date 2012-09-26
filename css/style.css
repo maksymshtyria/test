@@ -1,0 +1,73 @@
+body {
+    position: absolute;
+    margin: auto 30% ;
+    border-style: solid ;
+    border-top: none;
+    border-color: #F4A460;
+    border-radius: 0px 0px 15px 15px;
+    -webkit-box-shadow: -10px 5px 20px black;
+    /*width: 30%;*/
+    background: url("http://img.imgsmail.ru/r/themes/t1033/bg/bottom-right_bg.png") 100% 100% no-repeat,
+    url("http://img.imgsmail.ru/r/themes/t1033/bg/bottom-left_bg.png") 0% 100% no-repeat,
+    url("http://img.imgsmail.ru/r/themes/t1033/bg/bottom-center_bg.png") 50% 100% no-repeat,
+    url("http://img.imgsmail.ru/r/themes/t1033/bg/bottom_bg.png") 50% 100% repeat-x,
+
+    url("http://img.imgsmail.ru/r/themes/t1033/bg/top-right_bg.png") 95% 0 no-repeat,
+    url("http://img.imgsmail.ru/r/themes/t1033/bg/right-center_bg.png") 100% 600px no-repeat,
+    url("http://img.imgsmail.ru/r/themes/t1033/bg/top-left_bg.png") 0 100px no-repeat,
+    url("http://img.imgsmail.ru/r/themes/t1033/bg/left-center_bg.png") 0 900px no-repeat,
+    url("http://img.imgsmail.ru/r/themes/t1033/bg/bg.png") 0 0
+    !important;
+    background-color:#BCE0F8 !important;
+
+}
+
+
+.edit{
+    display: none;
+}
+li.done label {
+    color: #777777;
+    text-decoration: line-through;
+}
+
+.img{
+    position: relative;
+    display: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+
+.view #moveDown{
+    left: 50%;
+    top: -20px;
+     background: url(moveDown.png) no-repeat;
+ }
+
+.view #moveUp{
+    left: 55%;
+    top: -40px;
+    background: url(moveUp.png) no-repeat;
+}
+
+.view #destroy{
+    left: 60%;
+    top: -60px;
+    background: url(destroy.png) no-repeat;
+}
+
+.view {
+    height: 40px;
+}
+
+header{
+    position: relative;
+    margin: auto 30% ; 
+}
+label{
+   position: relative;
+    margin: auto 30% ; 
+} 
+}
